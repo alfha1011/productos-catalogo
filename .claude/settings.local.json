@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find C:xampphtdocsproductos-catalogo -not -path */node_modules/* -not -path */vendor/* -not -path */.git/* -type d)",
+      "Bash(find /c/xampp/htdocs/productos-api/storage -type f -name *.jpg -o -name *.jpeg -o -name *.png -o -name *.gif -o -name *.webp)",
+      "Bash(find /c/xampp/htdocs/productos-api -maxdepth 3 -not -path */vendor/* -not -path */node_modules/*)",
+      "Bash(php artisan:*)",
+      "Bash(gh auth:*)",
+      "Bash(git --version)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote:*)"
+    ]
+  }
+}
